@@ -1,0 +1,12 @@
+{
+  "name": "logistics-social-login-adr",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types src/shipment_decision.test.ts",
+    "start": "node --experimental-strip-types src/logistics_oauth.ts"
+  }
+}
